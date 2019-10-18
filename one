@@ -1,0 +1,16 @@
+#!/bin/bash
+array_name=(
+        "one"
+		"two"
+		"three"
+		"four"
+		)
+value0=${array_name[0]}
+echo "value0："${value0}
+
+length=${#array_name[@]}
+echo "length："${length}
+length=${#array_name[*]}
+echo "length："${length}
+length2=${#array_name[2]}
+echo "length2："${length2}
